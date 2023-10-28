@@ -1,0 +1,166 @@
+.table_container {
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+}
+
+.stats_heading {
+  margin-top: 3.5rem;
+  font-size: 1.5rem;
+}
+.stats_heading > p {
+  font-size: 16px;
+  margin-top: 0.6rem;
+  color: #a7a7a9;
+}
+
+.stats_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.table_items {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.7rem 0.8rem rgba(0, 0, 0, 0.2);
+  border: 1px solid hsla(0, 0%, 100%, 0.0784313725490196);
+  margin-top: 1rem;
+  color: #a7a7a9;
+  width: 600px;
+  padding-bottom: 0.4rem;
+}
+.heading {
+  padding: 1rem;
+  border-bottom: 2px solid hsla(0, 0%, 100%, 0.09);
+  color: white;
+}
+.table_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.35rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.table_item > span {
+  border-bottom: 1px dashed rgb(169, 164, 164);
+  color: white;
+}
+
+.zomi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.zomi_table {
+  width: 70%;
+}
+.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  background-color: #5c0af5;
+}
+.circle:hover {
+  box-shadow: 0 0 12px #5c0af5;
+  cursor: pointer;
+}
+
+.circle > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  z-index: 10;
+  background-color: #191919;
+  position: relative;
+}
+.circle > div > p {
+  position: absolute;
+  top: 100px;
+  background: black;
+  padding: 5px 2px;
+  border-radius: 5px;
+  display: none;
+}
+
+.zip_index_composition {
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+  margin-bottom: 3rem;
+  
+}
+.zip_index_composition > .table_items {
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.zip_index_composition > .table_items > .table_item {
+  margin-top: 1rem;
+}
+.zip_index_composition > .table_items > .table_item > span {
+  border: none;
+}
+
+.zip_index_composition > .table_items > h1 {
+  border-bottom: 1px solid gray;
+  padding: 1.5rem;
+}
+.table_item > div > p {
+  font-size: 10px;
+}
+.bottom_container  {
+  display: none;
+}
+
+.zip_index_composition > .table_items > .table_item {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+}
+
+@media only screen and (max-width: 800px) {
+  .table_container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .stats_list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .table_items {
+    width: 95%;
+    margin: auto 0;
+    margin-top: 1.5rem;
+  }
+  .zip_index_composition {
+    display: none;
+  }
+  .bottom_container  {
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .table_container {
+    padding-left: 2.5rem;
+    padding-right: 1.5rem;
+  }
+  .zomi {
+    display: flex;
+    flex-direction: column;
+  }
+  .circle {
+    margin: 1.5rem auto;
+  }
+}
+
+

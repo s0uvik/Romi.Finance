@@ -1,0 +1,16 @@
+.table_items> .button > button {
+    font-size: 15px;
+  align-self: flex-start;
+  padding: 0.6rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  background-color: #3eb489;
+}
+.table_items> .button > button:hover {
+  background-color: #277057;
+}
+
+.table_items> .button {
+    margin-top: auto;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #191919;
+  font-family: "Relative", sans-serif;
+  color: rgb(225, 220, 220);
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 0.7rem 0.8rem rgba(0, 0, 0, 0.2);
+  border: 1px solid hsla(0, 0%, 100%, 0.0784313725490196);
+}
+hr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid hsla(0, 0%, 100%, 0.0784313725490196);
+}
+@media only screen and (max-width: 800px) {
+  .btn {
+    font-size: 12px;
+  }
+}

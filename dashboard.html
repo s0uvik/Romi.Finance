@@ -1,0 +1,364 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/gobal.css" />
+    <link rel="stylesheet" href="./styles/dashboard.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- mobile menu  -->
+    <div class="menu_container">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./dashboard.html">Dashboard</a></li>
+        <li class="nft">
+          <a href="">NFT</a>
+          <ul>
+            <li><a href="">Mint</a></li>
+            <li><a href="">Stake NFT</a></li>
+          </ul>
+        </li>
+        <li><a href="./earn.html">Earn</a></li>
+        <li><a href="">Buy</a></li>
+        <li><a href="">Referrals</a></li>
+        <li><a href="">Ecosystem</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Setting</a></li>
+      </ul>
+      <span class="menu_close">X</span>
+    </div>
+
+    <nav class="navbar">
+      <h1 class="menu_icon">☰</h1>
+      <a href="./index.html" class="navbar_left_container">
+        <img class="logo_img" src="./images//New Logo.png" alt="" />
+        <span class="logo_name">Romi.Finance</span>
+      </a>
+      <div class="navbar_middle_container">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./dashboard.html">Dashboard</a></li>
+          <li><a href="">NFT</a></li>
+          <li><a href="./earn.html">Earn</a></li>
+          <li><a href="">Buy</a></li>
+          <li><a href="">Referrals</a></li>
+          <li><a href="">Ecosystem</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </div>
+      <div class="navbar_right_container">
+        <button class="trade btn">Trade</button>
+        <button class="wallet btn">Connect</button>
+        <button class="logo btn">:</button>
+      </div>
+    </nav>
+
+    <section class="stats table_container">
+      <div class="stats_heading">
+        <h1>Stats</h1>
+        <p>
+          Ethereum Total Stats start from 06 Jan 2022. <br />
+          For detailed stats:
+        </p>
+      </div>
+      <div class="stats_list">
+        <div class="overview table_items">
+          <h3 class="heading">Overview</h3>
+          <div class="table_item">
+            <p>AUM</p>
+            <span>$34</span>
+          </div>
+          <div class="table_item">
+            <p>$ZLP Pool</p>
+            <span>$34</span>
+          </div>
+          <div class="table_item">
+            <p>24h Volume</p>
+            <span>$0</span>
+          </div>
+          <div class="table_item">
+            <p>Long Positions</p>
+            <span>0</span>
+          </div>
+          <div class="table_item">
+            <p>Short Positions</p>
+            <span>$0</span>
+          </div>
+        </div>
+        <div class="total_stats table_items">
+          <h3 class="heading">Total Stats</h3>
+          <div class="table_item">
+            <p>Total Fees</p>
+            <span>$0</span>
+          </div>
+          <div class="table_item">
+            <p>Total Volume</p>
+            <span>$0</span>
+          </div>
+          <div class="table_item">
+            <p>Floor Price Fund</p>
+            <span>$625,017</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tokens table_container">
+      <div class="stats_heading">
+        <h1>Tokens</h1>
+        <p>Platform and $ZLP index tokens.</p>
+      </div>
+      <div class="stats_list">
+        <div class="zomi table_items">
+          <div class="zomi_table">
+            <h3 class="heading">$ZOMI</h3>
+            <div class="table_item">
+              <p>Price</p>
+              <span>$34</span>
+            </div>
+            <div class="table_item">
+              <p>Supply</p>
+              <span>$34</span>
+            </div>
+            <div class="table_item">
+              <p>Total Staked</p>
+              <span>$0</span>
+            </div>
+            <div class="table_item">
+              <p>Market Cap</p>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="circle">
+            <div>
+              Distribution
+              <p class="not_staked_message">100% not staked</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="zomi table_items">
+          <div class="zomi_table">
+            <h3 class="heading">$ZLP</h3>
+            <div class="table_item">
+              <p>Price</p>
+              <span>$1.139</span>
+            </div>
+            <div class="table_item">
+              <p>Supply</p>
+              <span>29$ZLP</span>
+            </div>
+            <div class="table_item">
+              <p>Total Staked</p>
+              <span>$34</span>
+            </div>
+            <div class="table_item">
+              <p>Market Cap</p>
+              <span>34</span>
+            </div>
+            <div class="table_item">
+              <p>Stablecoin Percentage</p>
+              <span>49.50</span>
+            </div>
+          </div>
+          <div class="circle">
+            <div>
+              $ZLP Pool
+              <p class="not_staked_message">100% not staked</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="bottom_container table_container">
+      <div class="stats_list">
+        <div class="overview table_items">
+          <h3 class="heading">ETH</h3>
+          <div class="table_item">
+            <p>Price</p>
+            <span>$..</span>
+          </div>
+          <div class="table_item">
+            <p>Pool</p>
+            <span>$..</span>
+          </div>
+          <div class="table_item">
+            <p>Weight</p>
+            <span>..</span>
+          </div>
+          <div class="table_item">
+            <p>Utilization</p>
+            <span>0.00%</span>
+          </div>
+        </div>
+        <div class="overview table_items">
+          <h3 class="heading">WBTC</h3>
+          <div class="table_item">
+            <p>Price</p>
+            <span>$34,076.23</span>
+          </div>
+          <div class="table_item">
+            <p>Pool</p>
+            <span>$0</span>
+          </div>
+          <div class="table_item">
+            <p>Weight</p>
+            <span>0.0% / 25.00%</span>
+          </div>
+          <div class="table_item">
+            <p>Utilization</p>
+            <span>0.00%</span>
+          </div>
+        </div>
+        <div class="overview table_items">
+          <h3 class="heading">APE</h3>
+          <div class="table_item">
+            <p>Price</p>
+            <span>$1.7</span>
+          </div>
+          <div class="table_item">
+            <p>Pool</p>
+            <span>$0</span>
+          </div>
+          <div class="table_item">
+            <p>Weight</p>
+            <span>0.0% / 25.00%</span>
+          </div>
+          <div class="table_item">
+            <p>Utilization</p>
+            <span>0.00%</span>
+          </div>
+        </div>
+        <div class="overview table_items">
+          <h3 class="heading">USDC</h3>
+          <div class="table_item">
+            <p>Price</p>
+            <span>$1</span>
+          </div>
+          <div class="table_item">
+            <p>Pool</p>
+            <span>$14</span>
+          </div>
+          <div class="table_item">
+            <p>Weight</p>
+            <span>49.50% / 25.00%</span>
+          </div>
+          <div class="table_item">
+            <p>Utilization</p>
+            <span>0.00%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="zip_index_composition">
+      <div class="table_items">
+        <h1>$ZLP Index Composition</h1>
+        <div class="table_item">
+          <h4>TOKEN</h4>
+          <h4 >PRICE</h4>
+          <h4 style=>POLL</h4>
+          <h4>WEIGHT</h4>
+          <h4>UTILIZATION</h4>
+        </div>
+        <div class="table_item">
+          <div>
+            <h3>Ethereum</h3>
+            <p>ETH</p>
+          </div>
+          <span>$1,786.82</span>
+          <span>$19</span>
+          <span>50.49% / 25.00%</span>
+          <span>0.00%</span>
+        </div>
+        <div class="table_item">
+          <div>
+            <h3>Wrapped <br> Bitcoin
+              </h3>
+            <p>WBTC</p>
+          </div>
+          <span>$34,094.57</span>
+          <span>$0</span>
+          <span>0.00% / 25.00%</span>
+          <span>0.00%</span>
+        </div>
+        <div class="table_item">
+          <div>
+            <h3>ApeCoin</h3>
+            <p>APE</p>
+          </div>
+          <span>$1.37</span>
+          <span>$0</span>
+          <span>0.00% / 25.00%</span>
+          <span>0.00%</span>
+        </div>
+        <div class="table_item">
+          <div>
+            <h3>USD Coin</h3>
+            <p>USDC</p>
+          </div>
+          <span>$1</span>
+          <span>$14</span>
+          <span>49.50% / 25.00%</span>
+          <span>0.00%</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="navbar_left_container footer_logo">
+        <img class="logo_img" src="./images//New Logo.png" alt="" />
+        <span class="logo_name">Romi.Finance</span>
+      </div>
+      <ul class="social_icon">
+        <li>
+          <img
+            src="https://zomi.finance/static/media/ic_twitter.9f35b403.svg"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            src="https://zomi.finance/static/media/ic_medium.f6051b2e.svg"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            src="https://zomi.finance/static/media/ic_github.dbd4de8a.svg"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            src="https://zomi.finance/static/media/ic_telegram.af1a4a66.svg"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            src="https://zomi.finance/static/media/ic_discord.be4d716c.svg"
+            alt=""
+          />
+        </li>
+      </ul>
+      <div class="tools">
+        <p>Terms and Conditions</p>
+        <p>Referral Terms</p>
+        <p>Media Kit</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
